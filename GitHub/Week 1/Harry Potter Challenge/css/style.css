@@ -1,0 +1,37 @@
+body {
+background-color: black;
+}
+
+h1, h2, h3, h4, p, a {
+  color: white;
+}
+
+header {
+    text-align: center;
+    max-height: 80vh;
+  }
+
+  nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+
+  li {
+    display: inline;
+    padding: 100px;
+  }
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .testimonials {
+    text-align: center;
+  }
+ 
