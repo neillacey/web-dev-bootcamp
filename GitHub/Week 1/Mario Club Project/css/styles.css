@@ -136,7 +136,7 @@ footer{
   text-align: center;
 }
 
-/* responsive styles */
+/* The following media queries copied from class tutor solution 
 
 @media screen and (max-width: 1400px){
 
@@ -180,7 +180,7 @@ footer{
   }
 
 }
-/*added from calls solutions*/
+
 @media screen and (max-width: 560px){
 
   .banner .welcome{
@@ -206,7 +206,7 @@ footer{
     position: relative;
     top: 0;
   }
-  
+  */
 
 }
 
