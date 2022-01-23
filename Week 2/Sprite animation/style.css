@@ -1,0 +1,41 @@
+body, html
+{
+    background: url(petra.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    
+}
+
+#sprite
+{
+    position: relative;
+    top: 600px;
+    background: url("sprite\ sheet\ 2.png");
+    animation: walking_animation 2s steps(10) infinite,move_forward 3s linear infinite;
+    animation-delay: 1s;
+    width: 250px;
+    height: 350px;
+    
+}
+
+#street{
+    position:relative;
+	top:600px;
+	border-bottom:5px groove rgb(128, 115, 0);
+}
+
+@keyframes walking_animation
+{
+    0%{background-position: 0px;}
+    100%{background-position: 4032px;}
+}
+
+@keyframes move_forward
+	{
+		0%{transform:translateX(-100px);}
+		100%{transform:translateX(100vw);}
+
+    }
